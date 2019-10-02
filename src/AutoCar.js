@@ -10,7 +10,7 @@ const AutoCar = () => {
                     car.all().map(item => {
                         return (
                             <li key={item.name}>
-                                <Link to={`/autocar/${item.name}`}>{item.name}</Link>
+                                <Link to={`/auto/${item.name}`}>{item.name}</Link>
                             </li>
                         )
                     })

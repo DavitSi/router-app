@@ -1,9 +1,9 @@
 import React from 'react';
-import { car } from './helpers';
+import { moto } from './helpers';
 
-const CarDetail = (props) => {
+const MotoDetail = (props) => {
     const id = props.match.params.name;
-    const data = car.getCarId(id);
+    const data = moto.getMotoId(id);
     const { name, year, location } = data;
 
     return (
@@ -16,4 +16,4 @@ const CarDetail = (props) => {
         </div>
     )
 }
-export default CarDetail;
+export default MotoDetail;
