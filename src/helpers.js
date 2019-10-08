@@ -1,6 +1,8 @@
+import { logo } from './logo';
+
 export const car = {
     carList: [
-        {name: 'Mercedes-Benz', year: 1926, location: 'Germany'},
+        {name: 'Mercedes-Benz', year: 1926, location: 'Germany', carLogo: logo},
         {name: 'BMW', year: 1916, location: 'Germany'},
         {name: 'Toyota', year: 1937, location: 'Japan'},
         {name: 'Nissan', year: 1933, location: 'Japan'},
